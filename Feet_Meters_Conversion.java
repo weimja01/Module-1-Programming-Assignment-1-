@@ -1,3 +1,8 @@
+/*Jeff Weimer
+ * Module 1 Programming Assignment 1
+ * 9/1/25
+ */
+
 public class Feet_Meters_Conversion {
     public static double footToMeter(double foot){
         double meterConversion;
