@@ -22,7 +22,7 @@ public class Feet_Meters_Conversion {
 
 
         System.out.printf("%-10s %-10s %-10s %-10s %-5s%n", headerFeet, headerMeters,"|", headerMeters, headerFeet);
-        System.out.println("-".repeat(50));
+        System.out.println("-".repeat(55));
         for (int index = 1; index < 11; index++) {
             System.out.printf("%-10d %-10.3f %-10s %-10d %-10.3f%n",
                                 index, footToMeter(index), "|", (index + 3) * 5, meterToFoot((index + 3) * 5));
